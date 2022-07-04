@@ -1,18 +1,24 @@
-h1, h3, h5, p, ul {
+h1, h2, h3, h5, p, ul {
     margin: 0;
     padding: 0;
     border: 0;
     font: inherit;
 }
 
-.body {
+html {
+    height: 100vh;
+}
+
+body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh; 
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 24px 120px;
     font-family: Hero, sans-serif;
 }
@@ -39,10 +45,11 @@ a{
 }
 
 .intro {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px 100px;
+    /*padding: 24px 100px;*/
     gap: 32px;
 }
 
@@ -71,5 +78,32 @@ a{
 
 .upper-image {
     flex: 0 1 auto;
+}
+
+.players {
+    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.info {
+    flex: 1;
+}
+.player-image {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #3882F6;
+}
+
+.player {
+    flex: 1, 0 auto;
+    text-align: center;
+    width: 100px;
+}
+.quote {
+    flex: 1;
+}
+.call-to-action-container {
+    flex: 1;
 }
 
