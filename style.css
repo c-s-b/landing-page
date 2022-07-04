@@ -5,8 +5,8 @@ h1, h2, h3, h5, p, ul {
     font: inherit;
 }
 
-html {
-    height: 100vh;
+*, * ::before, * ::after {
+    box-sizing: border-box;
 }
 
 body {
@@ -45,7 +45,7 @@ a{
 }
 
 .intro {
-    flex: 1;
+    flex: 1 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,6 +56,7 @@ a{
 .left-intro {
     flex: 0 1 auto;
     width: 400px;
+    font-family: Hero, sans-serif;
 }
 
 .left-intro h1 {
@@ -78,25 +79,36 @@ a{
 
 .upper-image {
     flex: 0 1 auto;
+    padding: 0px;
 }
 
-.players {
-    
+.info {
+    flex: 1;
+    font-family: Hero, sans-serif;
+}
+
+.players { 
     display: flex;
     justify-content: center;
     gap: 50px;
 }
-.info {
-    flex: 1;
+
+
+.info h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
+
 .player-image {
     width: 100px;
     height: 100px;
-    border: 5px solid #3882F6;
+    border: 3px solid #3882F6;
+    border-radius: 15%;
 }
 
 .player {
-    flex: 1, 0 auto;
     text-align: center;
     width: 100px;
 }
