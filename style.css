@@ -4,3 +4,17 @@
     border: 0;
     font: inherit;
 }
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header, .intro, .footer {
+    background-color: #1F2937;
+}
