@@ -17,4 +17,11 @@
 
 .header, .intro, .footer {
     background-color: #1F2937;
+    color: #ffffff;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    color: #ffffff;
 }
