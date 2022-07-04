@@ -45,12 +45,12 @@ a{
 }
 
 .intro {
-    flex: 1 0 auto;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    /*padding: 24px 100px;*/
-    gap: 32px;
+    padding: 24px 100px;
+    gap: 200px;
 }
 
 .left-intro {
@@ -69,12 +69,12 @@ a{
 .left-intro p {
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
 }
 
 .top-image {
     width: 400px;
-    max-height: 300px;
+    max-height: 250px;
 }
 
 .upper-image {
@@ -84,13 +84,13 @@ a{
 
 .info {
     flex: 1;
-    font-family: Hero, sans-serif;
+    padding: 36px;
 }
 
 .players { 
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 64px;
 }
 
 
@@ -99,23 +99,61 @@ a{
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin-bottom: 36px;
 }
 
 .player-image {
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     border: 3px solid #3882F6;
     border-radius: 15%;
 }
 
 .player {
     text-align: center;
-    width: 100px;
+    width: 125px;
+    margin-bottom: 32px;
+    font-family: sans-serif;
 }
 .quote {
     flex: 1;
+    background-color:#E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
 }
+
+.quote div {  
+    width: 732px;
+}
+
+.text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    font-family: serif;
+
+}
+
+.author {
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .call-to-action-container {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    padding: 32px 48px;
 }
 
