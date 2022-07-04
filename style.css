@@ -40,9 +40,34 @@ a{
 
 .intro {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 100px;
+    gap: 24px;
+}
+
+.left-intro {
+    flex: 0 1 auto;
+    width: 400px;
+}
+
+.left-intro h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.left-intro p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-image {
+    width: 400px;
+    max-height: 300px;
 }
 
 .upper-image {
-    max-width: 200px;
-    height: auto;
+    flex: 0 1 auto;
 }
+
