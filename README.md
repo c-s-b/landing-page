@@ -8,3 +8,6 @@ This project will make heavy use of flexbox and show an understanding of normal 
 
 Challenges:
 
+Credits:
+top-image: Photo by <a href="https://unsplash.com/@buduczki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Norbert Buduczki</a> on <a href="https://unsplash.com/s/photos/evil?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
