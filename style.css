@@ -4,27 +4,3 @@
     border: 0;
     font: inherit;
 }
-
-.body {
-    display: flex;
-    flex-direction: column;
-}
-a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-}
-
-.header, .intro, .footer {
-    background-color: #1F2937;
-    display: flex;
-}
-
-.header {
-    justify-content: space-between;
-}
-
