@@ -43,7 +43,7 @@ a{
     justify-content: center;
     align-items: center;
     padding: 24px 100px;
-    gap: 24px;
+    gap: 32px;
 }
 
 .left-intro {
@@ -55,11 +55,13 @@ a{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+   margin-bottom: 8px;
 }
 
 .left-intro p {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 32px;
 }
 
 .top-image {
