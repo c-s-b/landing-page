@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
+    margin: 0;
 }
 
 .header {
@@ -109,6 +110,19 @@ a{
     height: 125px;
     border: 3px solid #3882F6;
     border-radius: 15px;
+    
+}
+
+.caylenn {
+    order: 4;
+}
+
+.nastasya {
+    order: 5;
+}
+
+.celena .player-image, .oma .player-image, .nastasya .player-image {
+    background-color: #3882F6;
 }
 
 .player {
