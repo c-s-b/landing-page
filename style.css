@@ -60,24 +60,25 @@ a{
     flex: 0 1 auto;
     width: 400px;
     font-family: Hero, sans-serif;
+    
 }
 
 .left-intro h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-   margin-bottom: 8px;
+    margin-bottom: 28px;
 }
 
 .left-intro p {
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
 .top-image {
     width: 400px;
-    max-height: 250px;
+    max-height: 300px;
 }
 
 .upper-image {
