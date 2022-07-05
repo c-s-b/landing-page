@@ -201,6 +201,12 @@ button {
     padding: 4px 20px;
     font-weight: bold;
 }
+
+button:hover {
+    background-color: #add8e6;
+    cursor: pointer;
+}
+
 .call-text h5 {
     font-size: 20px;
     font-weight: bold;
