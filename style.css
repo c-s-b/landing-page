@@ -17,10 +17,11 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 24px 120px;
     font-family: Hero, sans-serif;
+    gap: 600px;
 }
 
 .logo {
@@ -37,6 +38,7 @@ ul {
     display: flex;
     list-style: none;
     gap: 24px; 
+    
 }
 
 a{
@@ -84,7 +86,7 @@ a{
 
 .info {
     flex: 1;
-    padding: 64px;
+    padding: 52px;
 }
 
 .players { 
@@ -171,8 +173,15 @@ a{
 }
 
 .sign-up-two button {
-    background-color: #3882F6;
     border: 2px solid #F9FAF8;
+}
+
+.left-intro button {
+    border: 0;
+}
+
+button {
+    background-color: #3882F6;  
     border-radius: 5px;
     color: #F9FAF8;
     padding: 4px 20px;
